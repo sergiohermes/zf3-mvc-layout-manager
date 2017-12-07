@@ -1,0 +1,35 @@
+{
+    "name": "sergiohermes/zf3-mvc-layout-manager",
+    "description": "Gerenciador de Layout para módulos em ZF3.",
+    "type": "library",
+    "keywords": ["zend framework", "layout", "zf3"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sérgio Ernane Munhós Hermes",
+            "email": "hermes.sergio@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^5.6 || ^7.0"
+    },
+    "require-dev": {
+        "zendframework/zend-test": "^3.0.1",
+        "zendframework/zend-coding-standard": "^1.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "ZF3LayoutManager\\": "src/"
+      }
+    },
+    "scripts": {
+            "cs-check": "phpcs",
+            "cs-fix": "phpcbf"
+    },
+    "extra": {
+         "zf": {
+            "module": "ZF3LayoutManager"
+        }
+    }
+}
